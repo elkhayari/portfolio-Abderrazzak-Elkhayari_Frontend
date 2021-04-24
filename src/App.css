@@ -1,5 +1,5 @@
 :root {
-  --main-color :red;
+  --main-color :rgb(255, 230, 0);
 }
 
 .container_shadow {
@@ -7,4 +7,37 @@
   -webkit-box-shadow: 0px 2px 92px 10px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 2px 92px 10px rgba(0, 0, 0, 0.13);
 
+}
+
+.top_16 {
+  margin-top: 60px !important;
+}
+.top_30 {
+  margin-top: 30px !important;
+}
+
+.mb_30 {
+  margin-bottom: 30px !important;
+}
+
+.p_30{
+  padding: 30px !important;
+}
+.pb_45{
+padding-bottom: 45px !important;
+}
+
+
+@media(max-width: 900px) {
+  .top_16 {
+    margin-top: 30px !important;
+  }
+}
+
+.main_content{
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  padding: 30px;
 }

@@ -1,0 +1,29 @@
+.section_title {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.section_title .section_title_text {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+}
+
+.section_title > span {
+position:absolute;
+height: 7px;
+width: 100%;
+bottom: 0;
+opacity: 0.4;
+left: 0;
+background-color: var(--main-color)
+}
+
+.aboutMe_text {
+    color: darkslategray;
+    font: smaller;
+    line-height: 22px;
+    white-space: pre-line !important;
+}

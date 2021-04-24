@@ -37,4 +37,6 @@ export default {
       icon: <TwitterIcon />,
     },
   },
+
+  aboutMe: "Aiming to work for an encouraging company where I can use my experience and education to help the company meet and surpass the fixed goals, and where I get the chance to improve my knowledge and master my skills."
 };

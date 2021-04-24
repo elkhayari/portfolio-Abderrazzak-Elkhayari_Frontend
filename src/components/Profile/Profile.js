@@ -3,20 +3,21 @@ import React from "react";
 
 //Componenets
 import CustomTimeLine, { CustomTimeLineSeparator } from "../TimeLine/TimeLine";
-
+import CustomButton from '../Button/CustomButton'
 // MUI
 import TimelineItem from "@material-ui/lab/TimelineItem";
+import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 // Icons
 import PersonIcon from "@material-ui/icons/Person";
-
+import GetAppIcon from '@material-ui/icons/GetApp';
 // CSS
 import "./Profile.css";
 
 import image from "../../assets/images/Profile_Image.jpg";
 
 import resumeData from "../../utils/resumeData";
-import TimelineContent from "@material-ui/lab/TimelineContent";
+
 
 const CustomTimelineItem = ({ title, text, link }) => {
   return (
@@ -50,7 +51,7 @@ const Profile = () => {
         <figure className="profile_image">
           <img src={image} alt="ProfileImage" />
         </figure>
-        
+
         {/** Profile Information */}
         <div className="profile_information">
           <CustomTimeLine icon={<PersonIcon />}>
@@ -71,7 +72,9 @@ const Profile = () => {
             })}
           </CustomTimeLine>
           <br />
-          <button> my button</button>
+          <div className='button_container'>
+             <CustomButton text='Download Cv' icon={<GetAppIcon />}/>
+          </div>
         </div>
       </div>
     </div>

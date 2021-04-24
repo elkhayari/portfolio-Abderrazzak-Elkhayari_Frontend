@@ -13,10 +13,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover ;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
